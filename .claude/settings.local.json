@@ -6,7 +6,9 @@
       "Bash(jupyter nbconvert:*)",
       "Bash(python -c ':*)",
       "Bash(python add_explanations.py)",
-      "Bash(python simplify_cells.py)"
+      "Bash(python simplify_cells.py)",
+      "Bash(cat)",
+      "Bash(python /tmp/clean_nb.py)"
     ]
   }
 }
