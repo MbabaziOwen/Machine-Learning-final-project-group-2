@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import json; f=open\\('owen version/solutions.ipynb'\\); data=json.load\\(f\\); f.close\\(\\); print\\(f'Valid JSON. Cells: {len\\(data[\\\\\"cells\\\\\"]\\)}, nbformat: {data[\\\\\"nbformat\\\\\"]}'\\)\")",
+      "Bash(jupyter --version)",
+      "Bash(jupyter nbconvert:*)",
+      "Bash(python -c ':*)",
+      "Bash(python add_explanations.py)",
+      "Bash(python simplify_cells.py)"
+    ]
+  }
+}
